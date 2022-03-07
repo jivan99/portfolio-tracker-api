@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "rootDir": "./src",
+    "outDir": "./build",
+    "strict": false,
+    "typeRoots": ["./src/@types", "./node_modules/@types"],
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "baseUrl": "./src",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "lib": ["es6"],
+  "include": ["./src"],
+  "exclude": ["./build/**/*", "node_modules"]
+}
